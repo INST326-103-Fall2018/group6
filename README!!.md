@@ -11,5 +11,5 @@ You will need to use these files as arguments in this order: U.S._Chronic_Diseas
 3) You will be asked to input one state and it will print out a graph of asthma rates of women, men, and overall for the state that you input
 4) The last graphical display is a scatter plot showing the overall asthma percent rates to air quality indexes for each state
 
-
+*Note: This may run better on Windows
 
