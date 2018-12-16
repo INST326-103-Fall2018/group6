@@ -154,6 +154,7 @@ def compare_any50asthma():
 
 # This code allows user to input one state and get the male, female, and overall asthma prevalence compared side by
 # side in a graph
+# This function was made by Michael 
 def compare_genderasthma():
 
     print('Select one state in which you would like to see male, female, and overall percent prevalence of \n'
