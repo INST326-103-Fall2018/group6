@@ -204,7 +204,7 @@ def compare_genderasthma():
 def Aqi():
     # importing AQI data per state capital - air quality Index(AQI)
     # Load the AQI CSV file into a dataframe
-    Asthma_AQI_df = pd.read_csv('AQI per state.csv', low_memory=True)
+    Asthma_AQI_df = pd.read_csv('AQI per state.csv', low_memory=False)
     # (Asthma_AQI dataframe contains the AQI (air quality index) of each state capital
     Asthma_AQI_df.columns = Asthma_AQI_df.columns.str.strip()
     # sorts dataframe by alphabetical order of states
@@ -225,6 +225,7 @@ def Aqi():
     plt.title('This Scatter shows the overall \n'
               'ashthma percentage rates to air quality indexs for all the states')
     plt.show()
+Aqi()
 
 
 def main():
